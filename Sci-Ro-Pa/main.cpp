@@ -14,6 +14,7 @@ int main()
 
     cout << "Enter your choice --> scissor (0), rock (1), paper (2) : ";
     cin >> playerChoice;
+
     if (playerChoice >= 0 && playerChoice <=2) {
         cout<<"\n";
         if ((computerChoice + 1)%3 == playerChoice)
@@ -23,6 +24,7 @@ int main()
         else
             cout<<"The computer is "<<figures[computerChoice]<<". You are "<<figures[playerChoice]<<". You won";
     }
+
     cout<<"\n";
     return 0;
 }
