@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1407987032 source:c:\users\alain\documents\github\sci-ro-pa\sci-ro-pa\main.cpp
+	<iostream>
+	<stdlib.h>
+	<time.h>
+
